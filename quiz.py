@@ -1,11 +1,3 @@
-#!/usr/bin/python
+import QuizBuilder.play as quiz
 
-import sys
-
-arguments = sys.argv
-
-if len(arguments) == 2 and arguments[1] == 'get':
-    import QuizBuilder
-else:
-    import csv
-    print("hello")
+quiz.single()
