@@ -10,6 +10,8 @@ headers = {"user-agent": USER_AGENT}
 
 URL = "https://bulbapedia.bulbagarden.net/wiki/List_of_Japanese_Pok%C3%A9mon_names"
 
+TOTAL_POKEMON = 905
+
 if len(arguments) == 2 and arguments[1] == 'get':
     resp = requests.get(URL, headers=headers)
     if resp.status_code == 200:
