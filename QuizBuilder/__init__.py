@@ -12,21 +12,32 @@ URL = "https://bulbapedia.bulbagarden.net/wiki/List_of_Japanese_Pok%C3%A9mon_nam
 
 TOTAL_POKEMON = 905
 
-if len(arguments) == 2 and arguments[1] == 'get':
+if (len(arguments) == 2 or len(arguments) == 3) and arguments[1] == 'update':
+    generations_to_update = list(range(1, 9))
+
+    if len(arguments) == 3:
+        generations_to_update = arguments[2].split(",")
+        for i in range(len(generations_to_update)):
+            generations_to_update[i] = int(generations_to_update[i])
+
     resp = requests.get(URL, headers=headers)
     if resp.status_code == 200:
         soup = BeautifulSoup(resp.content, "html.parser")
 
         try:
-            for generation_number in range(8):
-                filename_generation = str(generation_number+1)
+            for generation_number in generations_to_update:
+                filename_generation = str(generation_number)
                 results = soup.find_all('table', {'class': 'roundy'})[
-                    generation_number].findAll('tr', {'style': "background:#FFF"})
+                    generation_number-1].findAll('tr', {'style': "background:#FFF"})
 
-                with open('data/gen'+filename_generation+'.csv', 'a', newline='', encoding='utf-8') as csvfile:
+                with open('data/gen'+filename_generation+'.csv', 'w', newline='', encoding='utf-8') as csvfile:
                     writer = csv.writer(csvfile)
 
-                    for entry in results:
+                    for row_number, entry in zip(range(len(results)), results):
+                        if row_number == 0:
+                            writer.writerow(
+                                ["pokedex number", "english name", "katakana", "romaji"])
+
                         pokemon_entry = entry.find_all('td')
 
                         pokemon_number = pokemon_entry[0].get_text().strip()
