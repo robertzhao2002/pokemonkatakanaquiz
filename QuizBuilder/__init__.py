@@ -14,6 +14,7 @@ TOTAL_POKEMON = 905
 
 if (len(arguments) == 2 or len(arguments) == 3) and arguments[1] == 'update':
     generations_to_update = list(range(1, 9))
+    print("Updating ...")
 
     if len(arguments) == 3:
         generations_to_update = arguments[2].split(",")
@@ -48,9 +49,9 @@ if (len(arguments) == 2 or len(arguments) == 3) and arguments[1] == 'update':
                         fields = [pokemon_number, pokemon_english,
                                   pokemon_katakana, pokemon_romaji]
 
-                        print("Pokemon Number:", pokemon_number)
-                        print("English Name:", pokemon_english)
-                        print("Katakana:", pokemon_katakana)
+                        # print("Pokemon Number:", pokemon_number)
+                        # print("English Name:", pokemon_english)
+                        # print("Katakana:", pokemon_katakana)
 
                         writer.writerow(fields)
         except:
