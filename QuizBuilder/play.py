@@ -2,6 +2,24 @@ import csv
 from random import randint
 from QuizBuilder import TOTAL_POKEMON
 
+POKEMON_GENERATIONS = {
+    1: (1, 151),
+    2: (152, 251),
+    3: (252, 386),
+    4: (387, 493),
+    5: (494, 649),
+    6: (650, 721),
+    7: (722, 809),
+    8: (810, 905)
+}
+
+
+def determine_generation(dex_no):
+    for generation in POKEMON_GENERATIONS:
+        lower, upper = POKEMON_GENERATIONS[generation]
+        if dex_no >= lower and dex_no <= upper:
+            return generation
+
 
 def single():
     random_generation = str(randint(1, 8))
@@ -46,3 +64,24 @@ def batch(num_pokemon):
 
         except:
             print("Invalid File")
+
+
+def select(dex_no):
+    generation = determine_generation(dex_no=dex_no)
+    regional_dex_number = dex_no - POKEMON_GENERATIONS[generation][0]+1
+
+    with open('data/gen'+str(generation)+'.csv', encoding='utf-8') as csvfile:
+        reader = list(csv.reader(csvfile))
+
+        pokemon_entry = reader[regional_dex_number]
+        pokedex_number, english_name, katakana = pokemon_entry[0:3]
+
+        print("Regional Dex Number:", regional_dex_number)
+        print("PokeDex Number:", pokedex_number)
+        print("English Name:", english_name)
+        print("Pokemon Katakana:", katakana)
+
+
+def batch_select(dex_nos):
+    for dex_no in dex_nos:
+        select(dex_no=dex_no)
