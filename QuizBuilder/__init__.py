@@ -10,10 +10,10 @@ headers = {"user-agent": USER_AGENT}
 
 URL = "https://bulbapedia.bulbagarden.net/wiki/List_of_Japanese_Pok%C3%A9mon_names"
 
-TOTAL_POKEMON = 905
+TOTAL_POKEMON = 1008
 
 if (len(arguments) == 2 or len(arguments) == 3) and arguments[1] == 'update':
-    generations_to_update = list(range(1, 9))
+    generations_to_update = list(range(1, 10))
     print("Updating ...")
 
     if len(arguments) == 3:
