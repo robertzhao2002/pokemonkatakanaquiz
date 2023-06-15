@@ -11,7 +11,7 @@ POKEMON_GENERATIONS = {
     6: (650, 721),
     7: (722, 809),
     8: (810, 905),
-    9: (906, 1008)
+    9: (906, 1010),
 }
 
 
@@ -26,10 +26,10 @@ def single():
     random_generation = str(randint(1, 8))
 
     try:
-        with open('data/gen'+random_generation+'.csv', encoding='utf-8') as csvfile:
+        with open("data/gen" + random_generation + ".csv", encoding="utf-8") as csvfile:
             reader = list(csv.reader(csvfile))
 
-            random_pokemon_number = randint(1, len(reader)-1)
+            random_pokemon_number = randint(1, len(reader) - 1)
 
             pokemon_entry = reader[random_pokemon_number]
             pokedex_number, english_name, katakana = pokemon_entry[0:3]
@@ -50,10 +50,12 @@ def batch(num_pokemon):
         random_generation = str(randint(1, 8))
 
         try:
-            with open('data/gen'+random_generation+'.csv', encoding='utf-8') as csvfile:
+            with open(
+                "data/gen" + random_generation + ".csv", encoding="utf-8"
+            ) as csvfile:
                 reader = list(csv.reader(csvfile))
 
-                random_pokemon_number = randint(1, len(reader)-1)
+                random_pokemon_number = randint(1, len(reader) - 1)
 
                 pokemon_entry = reader[random_pokemon_number]
                 pokedex_number, english_name, katakana = pokemon_entry[0:3]
@@ -69,9 +71,9 @@ def batch(num_pokemon):
 
 def select(dex_no):
     generation = determine_generation(dex_no=dex_no)
-    regional_dex_number = dex_no - POKEMON_GENERATIONS[generation][0]+1
+    regional_dex_number = dex_no - POKEMON_GENERATIONS[generation][0] + 1
 
-    with open('data/gen'+str(generation)+'.csv', encoding='utf-8') as csvfile:
+    with open("data/gen" + str(generation) + ".csv", encoding="utf-8") as csvfile:
         reader = list(csv.reader(csvfile))
 
         pokemon_entry = reader[regional_dex_number]
