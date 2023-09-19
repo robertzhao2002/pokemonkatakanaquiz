@@ -1,111 +1,117 @@
 pokedex number,english name,katakana,romaji
-0906,Sprigatito,ニャオハ,Nyaoha
-0907,Floragato,ニャローテ,Nyarōte
-0908,Meowscarada,マスカーニャ,Masukānya
-0909,Fuecoco,ホゲータ,Hogēta
-0910,Crocalor,アチゲータ,Achigēta
-0911,Skeledirge,ラウドボーン,Raudobōn
-0912,Quaxly,クワッス,Kuwassu
-0913,Quaxwell,ウェルカモ,Werukamo
-0914,Quaquaval,ウェーニバル,Wēnibaru
-0915,Lechonk,グルトン,Guruton
-0916,Oinkologne,パフュートン,Pafyūton
-0917,Tarountula,タマンチュラ,Tamanchura
-0918,Spidops,ワナイダー,Wanaidā
-0919,Nymble,マメバッタ,Mamebatta
-0920,Lokix,エクスレッグ,Ekusureggu
-0921,Pawmi,パモ,Pamo
-0922,Pawmo,パモット,Pamotto
-0923,Pawmot,パーモット,Pāmotto
-0924,Tandemaus,ワッカネズミ,Wakkanezumi
-0925,Maushold,イッカネズミ,Ikkanezumi
-0926,Fidough,パピモッチ,Papimotchi
-0927,Dachsbun,バウッツェル,Bauttseru
-0928,Smoliv,ミニーブ,Minību
-0929,Dolliv,オリーニョ,Orīnyo
-0930,Arboliva,オリーヴァ,Orīva
-0931,Squawkabilly,イキリンコ,Ikirinko
-0932,Nacli,コジオ,Kojio
-0933,Naclstack,ジオヅム,Jiodzumu
-0934,Garganacl,キョジオーン,Kyojiōn
-0935,Charcadet,カルボウ,Karubō
-0936,Armarouge,グレンアルマ,Guren'aruma
-0937,Ceruledge,ソウブレイズ,Soubureizu
-0938,Tadbulb,ズピカ,Zupika
-0939,Bellibolt,ハラバリー,Harabarī
-0940,Wattrel,カイデン,Kaiden
-0941,Kilowattrel,タイカイデン,Taikaiden
-0942,Maschiff,オラチフ,Orachifu
-0943,Mabosstiff,マフィティフ,Mafitifu
-0944,Shroodle,シルシュルー,Shirushurū
-0945,Grafaiai,タギングル,Taginguru
-0946,Bramblin,アノクサ,Anokusa
-0947,Brambleghast,アノホラグサ,Anohoragusa
-0948,Toedscool,ノノクラゲ,Nonokurage
-0949,Toedscruel,リククラゲ,Rikukurage
-0950,Klawf,ガケガニ,Gakegani
-0951,Capsakid,カプサイジ,Kapusaiji
-0952,Scovillain,スコヴィラン,Sukoviran
-0953,Rellor,シガロコ,Shigaroko
-0954,Rabsca,ベラカス,Berakasu
-0955,Flittle,ヒラヒナ,Hirahina
-0956,Espathra,クエスパトラ,Kuesupatora
-0957,Tinkatink,カヌチャン,Kanuchan
-0958,Tinkatuff,ナカヌチャン,Nakanuchan
-0959,Tinkaton,デカヌチャン,Dekanuchan
-0960,Wiglett,ウミディグダ,Umidiguda
-0961,Wugtrio,ウミトリオ,Umitorio
-0962,Bombirdier,オトシドリ,Otoshidori
-0963,Finizen,ナミイルカ,Namiiruka
-0964,Palafin,イルカマン,Irukaman
-0965,Varoom,ブロロン,Buroron
-0966,Revavroom,ブロロローム,Burororōmu
-0967,Cyclizar,モトトカゲ,Mototokage
-0968,Orthworm,ミミズズ,Mimizuzu
-0969,Glimmet,キラーメ,Kirāme
-0970,Glimmora,キラフロル,Kirafuroru
-0971,Greavard,ボチ,Bochi
-0972,Houndstone,ハカドッグ,Hakadoggu
-0973,Flamigo,カラミンゴ,Karamingo
-0974,Cetoddle,アルクジラ,Arukujira
-0975,Cetitan,ハルクジラ,Harukujira
-0976,Veluza,ミガルーサ,Migarūsa
-0977,Dondozo,ヘイラッシャ,Heirassha
-0978,Tatsugiri,シャリタツ,Sharitatsu
-0979,Annihilape,コノヨザル,Konoyozaru
-0980,Clodsire,ドオー,Do'ō
-0981,Farigiraf,リキキリン,Rikikirin
-0982,Dudunsparce,ノココッチ,Nokokotchi
-0983,Kingambit,ドドゲザン,Dodogezan
-0984,Great Tusk,イダイナキバ,Idainakiba
-0985,Scream Tail,サケブシッポ,Sakebushippo
-0986,Brute Bonnet,アラブルタケ,Araburutake
-0987,Flutter Mane,ハバタクカミ,Habatakukami
-0988,Slither Wing,チヲハウハネ,Chiohauhane
-0989,Sandy Shocks,スナノケガワ,Sunanokegawa
-0990,Iron Treads,テツノワダチ,Tetsunowadachi
-0991,Iron Bundle,テツノツツミ,Tetsunotsutsumi
-0992,Iron Hands,テツノカイナ,Tetsunokaina
-0993,Iron Jugulis,テツノコウベ,Tetsunokōbe
-0994,Iron Moth,テツノドクガ,Tetsunodokuga
-0995,Iron Thorns,テツノイバラ,Tetsunoibara
-0996,Frigibax,セビエ,Sebie
-0997,Arctibax,セゴール,Segōru
-0998,Baxcalibur,セグレイブ,Segureibu
-0999,Gimmighoul,コレクレー,Korekurē
-1000,Gholdengo,サーフゴー,Sāfugō
-1001,Wo-Chien,チオンジェン,Chionjen
-1002,Chien-Pao,パオジアン,Paojian
-1003,Ting-Lu,ディンルー,Dinrū
-1004,Chi-Yu,イーユイ,Īyui
-1005,Roaring Moon,トドロクツキ,Todorokutsuki
-1006,Iron Valiant,テツノブジン,Tetsunobujin
-1007,Koraidon,コライドン,Koraidon
-1008,Miraidon,ミライドン,Miraidon
-1009,Walking Wake,ウネルミナモ,Uneruminamo
-1010,Iron Leaves,テツノイサハ,Tetsunoisaha
-NA,Ogerpon,オーガポン,Ōgapon
-NA,Okidogi,イイネイヌ,Iineinu
-NA,Munkidori,マシマシラ,Mashimashira
-NA,Fezandipiti,キチキギス,Kichikigisu
-NA,Terapagos,テラパゴス,Terapagosu
+#0906,Sprigatito,ニャオハ,Nyaoha
+#0907,Floragato,ニャローテ,Nyarōte
+#0908,Meowscarada,マスカーニャ,Masukānya
+#0909,Fuecoco,ホゲータ,Hogēta
+#0910,Crocalor,アチゲータ,Achigēta
+#0911,Skeledirge,ラウドボーン,Raudobōn
+#0912,Quaxly,クワッス,Kuwassu
+#0913,Quaxwell,ウェルカモ,Werukamo
+#0914,Quaquaval,ウェーニバル,Wēnibaru
+#0915,Lechonk,グルトン,Guruton
+#0916,Oinkologne,パフュートン,Pafyūton
+#0917,Tarountula,タマンチュラ,Tamanchura
+#0918,Spidops,ワナイダー,Wanaidā
+#0919,Nymble,マメバッタ,Mamebatta
+#0920,Lokix,エクスレッグ,Ekusureggu
+#0921,Pawmi,パモ,Pamo
+#0922,Pawmo,パモット,Pamotto
+#0923,Pawmot,パーモット,Pāmotto
+#0924,Tandemaus,ワッカネズミ,Wakkanezumi
+#0925,Maushold,イッカネズミ,Ikkanezumi
+#0926,Fidough,パピモッチ,Papimotchi
+#0927,Dachsbun,バウッツェル,Bauttseru
+#0928,Smoliv,ミニーブ,Minību
+#0929,Dolliv,オリーニョ,Orīnyo
+#0930,Arboliva,オリーヴァ,Orīva
+#0931,Squawkabilly,イキリンコ,Ikirinko
+#0932,Nacli,コジオ,Kojio
+#0933,Naclstack,ジオヅム,Jiodzumu
+#0934,Garganacl,キョジオーン,Kyojiōn
+#0935,Charcadet,カルボウ,Karubō
+#0936,Armarouge,グレンアルマ,Guren'aruma
+#0937,Ceruledge,ソウブレイズ,Soubureizu
+#0938,Tadbulb,ズピカ,Zupika
+#0939,Bellibolt,ハラバリー,Harabarī
+#0940,Wattrel,カイデン,Kaiden
+#0941,Kilowattrel,タイカイデン,Taikaiden
+#0942,Maschiff,オラチフ,Orachifu
+#0943,Mabosstiff,マフィティフ,Mafitifu
+#0944,Shroodle,シルシュルー,Shirushurū
+#0945,Grafaiai,タギングル,Taginguru
+#0946,Bramblin,アノクサ,Anokusa
+#0947,Brambleghast,アノホラグサ,Anohoragusa
+#0948,Toedscool,ノノクラゲ,Nonokurage
+#0949,Toedscruel,リククラゲ,Rikukurage
+#0950,Klawf,ガケガニ,Gakegani
+#0951,Capsakid,カプサイジ,Kapusaiji
+#0952,Scovillain,スコヴィラン,Sukoviran
+#0953,Rellor,シガロコ,Shigaroko
+#0954,Rabsca,ベラカス,Berakasu
+#0955,Flittle,ヒラヒナ,Hirahina
+#0956,Espathra,クエスパトラ,Kuesupatora
+#0957,Tinkatink,カヌチャン,Kanuchan
+#0958,Tinkatuff,ナカヌチャン,Nakanuchan
+#0959,Tinkaton,デカヌチャン,Dekanuchan
+#0960,Wiglett,ウミディグダ,Umidiguda
+#0961,Wugtrio,ウミトリオ,Umitorio
+#0962,Bombirdier,オトシドリ,Otoshidori
+#0963,Finizen,ナミイルカ,Namiiruka
+#0964,Palafin,イルカマン,Irukaman
+#0965,Varoom,ブロロン,Buroron
+#0966,Revavroom,ブロロローム,Burororōmu
+#0967,Cyclizar,モトトカゲ,Mototokage
+#0968,Orthworm,ミミズズ,Mimizuzu
+#0969,Glimmet,キラーメ,Kirāme
+#0970,Glimmora,キラフロル,Kirafuroru
+#0971,Greavard,ボチ,Bochi
+#0972,Houndstone,ハカドッグ,Hakadoggu
+#0973,Flamigo,カラミンゴ,Karamingo
+#0974,Cetoddle,アルクジラ,Arukujira
+#0975,Cetitan,ハルクジラ,Harukujira
+#0976,Veluza,ミガルーサ,Migarūsa
+#0977,Dondozo,ヘイラッシャ,Heirassha
+#0978,Tatsugiri,シャリタツ,Sharitatsu
+#0979,Annihilape,コノヨザル,Konoyozaru
+#0980,Clodsire,ドオー,Do'ō
+#0981,Farigiraf,リキキリン,Rikikirin
+#0982,Dudunsparce,ノココッチ,Nokokotchi
+#0983,Kingambit,ドドゲザン,Dodogezan
+#0984,Great Tusk,イダイナキバ,Idainakiba
+#0985,Scream Tail,サケブシッポ,Sakebushippo
+#0986,Brute Bonnet,アラブルタケ,Araburutake
+#0987,Flutter Mane,ハバタクカミ,Habatakukami
+#0988,Slither Wing,チヲハウハネ,Chiohauhane
+#0989,Sandy Shocks,スナノケガワ,Sunanokegawa
+#0990,Iron Treads,テツノワダチ,Tetsunowadachi
+#0991,Iron Bundle,テツノツツミ,Tetsunotsutsumi
+#0992,Iron Hands,テツノカイナ,Tetsunokaina
+#0993,Iron Jugulis,テツノコウベ,Tetsunokōbe
+#0994,Iron Moth,テツノドクガ,Tetsunodokuga
+#0995,Iron Thorns,テツノイバラ,Tetsunoibara
+#0996,Frigibax,セビエ,Sebie
+#0997,Arctibax,セゴール,Segōru
+#0998,Baxcalibur,セグレイブ,Segureibu
+#0999,Gimmighoul,コレクレー,Korekurē
+#1000,Gholdengo,サーフゴー,Sāfugō
+#1001,Wo-Chien,チオンジェン,Chionjen
+#1002,Chien-Pao,パオジアン,Paojian
+#1003,Ting-Lu,ディンルー,Dinrū
+#1004,Chi-Yu,イーユイ,Īyui
+#1005,Roaring Moon,トドロクツキ,Todorokutsuki
+#1006,Iron Valiant,テツノブジン,Tetsunobujin
+#1007,Koraidon,コライドン,Koraidon
+#1008,Miraidon,ミライドン,Miraidon
+#1009,Walking Wake,ウネルミナモ,Uneruminamo
+#1010,Iron Leaves,テツノイサハ,Tetsunoisaha
+#1011,Dipplin,カミッチュ,Kamitchu
+#1012,Poltchageist,チャデス,Chadesu
+#1013,Sinistcha,ヤバソチャ,Yabasocha
+#1014,Okidogi,イイネイヌ,Iineinu
+#1015,Munkidori,マシマシラ,Mashimashira
+#1016,Fezandipiti,キチキギス,Kichikigisu
+#1017,Ogerpon,オーガポン,Ōgapon
+#,Archaludon,ブリジュラス,Burijurasu
+#,Raging Bolt,タケルライコ,Takeruraiko
+#,Iron Crown,テツノカシラ,Tetsunokashira
+#,Terapagos,テラパゴス,Terapagosu
