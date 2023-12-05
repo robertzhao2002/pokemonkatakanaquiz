@@ -1,6 +1,6 @@
 import csv
-from random import randint
 from QuizBuilder import TOTAL_POKEMON
+import secrets
 
 POKEMON_GENERATIONS = {
     1: (1, 151),
@@ -23,13 +23,13 @@ def determine_generation(dex_no):
 
 
 def single():
-    random_generation = str(randint(1, 8))
+    random_generation = str(secrets.SystemRandom().randint(1, 8))
 
     try:
         with open("data/gen" + random_generation + ".csv", encoding="utf-8") as csvfile:
             reader = list(csv.reader(csvfile))
 
-            random_pokemon_number = randint(1, len(reader) - 1)
+            random_pokemon_number = secrets.SystemRandom().randint(1, len(reader) - 1)
 
             pokemon_entry = reader[random_pokemon_number]
             pokedex_number, english_name, katakana = pokemon_entry[0:3]
@@ -47,7 +47,7 @@ def batch(num_pokemon):
     assert num_pokemon > 0 and num_pokemon <= TOTAL_POKEMON
 
     for i in range(num_pokemon):
-        random_generation = str(randint(1, 8))
+        random_generation = str(secrets.SystemRandom().randint(1, 8))
 
         try:
             with open(
@@ -55,7 +55,7 @@ def batch(num_pokemon):
             ) as csvfile:
                 reader = list(csv.reader(csvfile))
 
-                random_pokemon_number = randint(1, len(reader) - 1)
+                random_pokemon_number = secrets.SystemRandom().randint(1, len(reader) - 1)
 
                 pokemon_entry = reader[random_pokemon_number]
                 pokedex_number, english_name, katakana = pokemon_entry[0:3]
